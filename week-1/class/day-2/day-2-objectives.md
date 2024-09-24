@@ -48,3 +48,27 @@ Today's Agenda
 8. Break
 9. Java data types
 10. Recap and Q&A
+
+What did you learn today?
+
+1. Pseudocode fundamentals
+2. How to brush your teeth
+3. git - VCS (Version Control System)
+4. git init - creates/initializes repository
+   1. run git init ONCE 
+5. git status - see what's been staged/untracked
+6. git add filename (optional) filename2
+   1. git add . (. == ALL)
+   2. git add -A (-A == ALL)
+7. git commit -m "commit message"
+   1. Putting into our timeline
+8. git diff - show you what is difference between last version and current changes
+9. git log - shows history of committed changes
+10. touch
+11. cp
+12. mv
+13. git --version
+14. sudo su
+15. ESCAPE VIM
+    1.  SHIFT + : then type q and ENTER
+16. rm - removes file
