@@ -82,3 +82,35 @@ Today's Agenda
 9. Break
 10. Conditionals
 11. Recap and Q&A
+
+
+w
+
+
+
+
+
+What did you learn today?
+
+1. Scanner - taking input from console
+   1. System.in
+   2. Scanner scanner = new Scanner(System.in)
+   3. using nextLine() to consume CRLF from input buffer
+2. Conditions
+   1. Looks for boolean type
+   2. if runs on true
+   3. else if all conditions are not met
+   4. equals and equalsIgnoreCase methods to compare strings
+   5. Logical Operators - non-primitive data types
+      1. == equals
+      2. != not equal
+      3. <
+      4. >
+      5. <=
+      6. >=
+   6. switch statements
+3. methods = function
+   1. return types
+      1. No return = void
+      2. int, char, String
+   2. parameters definition require data type
