@@ -1,8 +1,6 @@
 package com.pluralsight;
 
-import java.util.regex.Pattern;
-
-public class App {
+public class MethodsApp {
     public static void main(String[] args) {
 
         String s1 = "ABC";
