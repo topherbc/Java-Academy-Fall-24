@@ -57,3 +57,23 @@ Agenda Today
 9. Classes cont.
 10. Recap and Q&A 
 
+
+What did you learn today?
+
+1. classes
+   1. constructor method
+      1. same name as class
+      2. invoked on instantiation
+   2. this - referring to instance object
+   3. getters
+   4. setters
+   5. instantiating an object from class using new
+   6. encapsulation
+      1. private - not accessible outside of instance
+      2. public - accessible outside of instance
+   7. Starts with Upper Cased letter - PasCal/UpperCamelCase
+2. OOP - Object Oriented Programming
+3. Package private - default access specifier
+   1. by default our instance variables/methods are private
+4. String.endsWith()
+5. Integer.ParseInt(String)
