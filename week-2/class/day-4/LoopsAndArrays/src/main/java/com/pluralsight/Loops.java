@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class App {
+public class Loops {
     public static void main(String[] args) {
 //        int count = 0;
 
