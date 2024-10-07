@@ -48,3 +48,20 @@ Today's Agenda
 8. File I/O
 9. BufferedReader (stretch goal)
 10. Recap and Q&A
+
+What did you learn today?
+
+1. int y = x++; - y will be original x value, x will update
+2. ++x; update x, and use that value
+3. switch - comparing multiple cases for single variable
+   1. break; - stops execution of switch
+   2. switch(expression) { case 1, 2: //thing to do break; default: //handles if all cases are false}
+4. try and catch(Exception e) - handles exceptions 
+   1. e.printStackTrace()
+5. IO - input output 
+6. FileInputStream(path)
+   1. Path starts in root directory of project
+7. Scanner.close() - ends process of scanning input, input either user or file
+8. scanner.hasNextLine() - checks if next line exists
+9. String newString = new String("string");
+10. continue; 
