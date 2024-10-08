@@ -31,3 +31,14 @@ Today's Agenda
 7.  Break
 8.  Dates
 9.  Recap and Q&A
+
+
+What did you learn today?
+
+1. FileInputStream
+2. BufferedReader - reads file contents
+   1. BufferedReader.close()
+3. How to copy content root path of file
+4. IO - Input and Output
+5. Override toString()
+6. FileWriter.write()

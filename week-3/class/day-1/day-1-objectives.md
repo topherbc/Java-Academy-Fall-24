@@ -64,4 +64,4 @@ What did you learn today?
 7. Scanner.close() - ends process of scanning input, input either user or file
 8. scanner.hasNextLine() - checks if next line exists
 9. String newString = new String("string");
-10. continue; 
+10. continue;

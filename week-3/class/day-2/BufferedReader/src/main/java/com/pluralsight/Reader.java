@@ -11,6 +11,7 @@ public class Reader {
             String input;
 
             while ((input = bufReader.readLine()) != null) {
+
                 System.out.println(input);
             }
 
