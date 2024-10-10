@@ -1,0 +1,18 @@
+2024-10-10 10:25:31 launch
+2024-10-10 10:25:35 search - Does this work?
+2024-10-10 10:25:36 search - I guess
+2024-10-10 10:25:40 search - Thanks Stephane
+2024-10-10 10:25:41 search - and team
+2024-10-10 10:25:42 exit
+2024-10-10 10:26:16 launch
+2024-10-10 10:26:21 search - type some search terms
+2024-10-10 10:26:25 search - decided I was done
+2024-10-10 10:26:29 search - x 
+2024-10-10 10:26:31 search - x 
+2024-10-10 10:26:33 search - x 
+2024-10-10 10:26:34 search - x 
+2024-10-10 10:26:35 search - x 
+2024-10-10 10:26:38 exit
+2024-10-10 10:27:22 launch
+2024-10-10 10:27:25 search - nowZ?
+2024-10-10 10:27:27 exit
