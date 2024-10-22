@@ -4,7 +4,22 @@ public class Car {
     // attributes
     private String make;
     private String model;
+    private String color;
     private int speed;
+
+    //overloaded constructor, no parameters
+    public Car() {
+        this.make = "";
+        this.model = "";
+        this.color = "";
+        this.speed = 0;
+    }
+    //overloaded constructor, 1 parameter
+    public Car(String make) {
+        this.make = make;
+        this.model = "";
+        this.speed = 0;
+    }
     // constructor
     public Car(String make, String model) {
         this.make = make;
