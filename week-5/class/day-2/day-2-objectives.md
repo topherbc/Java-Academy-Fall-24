@@ -29,3 +29,16 @@ Agenda Today
 7. Break
 8. Exercise methods
 9. Recap and Q&A
+
+
+What did you learn today?
+
+1. Cohesion
+   1. Interoperability 
+   2. high cohesion is our aim
+2. Implementation hiding
+3. Method overloading
+   1. Having the same method name and result, different parameters
+4. Constructor overloading
+   1. Having the same constructor, with optional parameters
+5. dot notation
