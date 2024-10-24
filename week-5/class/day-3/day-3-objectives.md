@@ -32,3 +32,20 @@ Agenda Today
 7. break
 8. Static
 9. recap and Q&A
+
+What did you learn today?
+
+1. Unit Testing
+   1. testing an aspect of code
+2. Integration Testing
+   1. Testing systems interactions
+3. End 2 End (e2e) Testing
+   1. User focused testing the entire program
+4. Arrange
+   1. Preparing our test
+5. Act
+   1. Calling method/functionality we are testing
+6. Assert
+   1. Asserting an expected result 
+7. Ternery operators
+   1. (condition) ? true : false;
