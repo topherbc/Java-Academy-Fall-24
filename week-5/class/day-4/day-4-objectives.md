@@ -33,3 +33,11 @@ Agenda Today
 8. Break
 9. Blackjack
 10. Recap and Q&A
+
+What did you learn today?
+
+1. static
+   1. Unchanging
+   2. Belongs to class, not instance
+2. coupling
+3. relationships
