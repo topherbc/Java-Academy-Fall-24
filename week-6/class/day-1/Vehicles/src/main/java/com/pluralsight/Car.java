@@ -6,6 +6,7 @@ public class Car extends Vehicle{
 
     public Car(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int wheelCount, int seatbelts, boolean tintedWindows) {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity, wheelCount);
+
         this.seatbelts = seatbelts;
         this.tintedWindows = tintedWindows;
     }
