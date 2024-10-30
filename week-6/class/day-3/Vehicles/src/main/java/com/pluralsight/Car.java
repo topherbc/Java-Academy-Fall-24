@@ -11,6 +11,11 @@ public class Car extends Vehicle{
         this.tintedWindows = tintedWindows;
     }
 
+    @Override
+    public void accelerate() {
+        System.out.println("car accelerates, uses fuel, presses gas pedal");
+    }
+
     public int getSeatbelts() {
         return seatbelts;
     }

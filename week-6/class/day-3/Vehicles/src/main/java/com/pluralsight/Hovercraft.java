@@ -12,6 +12,11 @@ public class Hovercraft extends Vehicle{
         this.propellerSpeed = propellerSpeed;
     }
 
+    @Override
+    public void accelerate() {
+        System.out.println("propeller accelerates, uses fuel");
+    }
+
     public boolean isHasFan() {
         return hasFan;
     }

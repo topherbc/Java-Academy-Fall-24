@@ -1,7 +1,6 @@
 package com.pluralsight;
 
 public class Vehicle {
-
     private String color;
     private int numberOfPassengers, cargoCapacity, fuelCapacity, wheelCount;
 
@@ -11,6 +10,10 @@ public class Vehicle {
         this.cargoCapacity = cargoCapacity;
         this.fuelCapacity = fuelCapacity;
         this.wheelCount = wheelCount;
+    }
+
+    public void accelerate() {
+        System.out.println("Increase in speed, using fuel");
     }
 
     public int getWheelCount() {

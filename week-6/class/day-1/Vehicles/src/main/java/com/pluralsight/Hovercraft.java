@@ -6,13 +6,6 @@ public class Hovercraft extends Vehicle{
     private int propellerSpeed;
 
 
-    public Hovercraft(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int wheelCount, boolean hasFan, boolean tubing, int propellerSpeed) {
-        super(color, numberOfPassengers, cargoCapacity, fuelCapacity, wheelCount);
-        this.hasFan = hasFan;
-        this.tubing = tubing;
-        this.propellerSpeed = propellerSpeed;
-    }
-
     public boolean isHasFan() {
         return hasFan;
     }

@@ -3,7 +3,7 @@ package com.pluralsight;
 public class VehicleApp {
     public static void main(String[] args) {
 
-        Hovercraft samsBoat = new Hovercraft();
+        Hovercraft samsBoat = new Hovercraft("red", 6, 100, 20, 0, true, true, 100);
 
         samsBoat.setWheelCount(0);
 

@@ -5,6 +5,12 @@ public class Moped extends Vehicle {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity, wheelCount);
     }
 
+    @Override
+    public void accelerate() {
+        super.accelerate();
+        System.out.println("moped goes FAST");
+    }
+
     public void testMethod() {
         System.out.println(this.getWheelCount()); //works with private field
 //        System.out.println(this.wheelCount); //doesn't work
