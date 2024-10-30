@@ -180,3 +180,18 @@
   * https://www.allhomerobotics.com/best-robotic-kits-beginners-getting-started-robotics/
   * https://www.learnrobotics.org/blog/learn-robotics-guide/
   * Remember that robotics is a large field, that requires both hardware and software knowledge. Building interactions a robot will have, involved programming different sensors and motors and combining their efforts to achieve an expected outcome. 
+
+
+## Networking
+
+  * https://app.pluralsight.com/paths/skill/networking-fundamentals
+  * https://www.rfc-editor.org/rfc/rfc2818
+  * https://www.geeksforgeeks.org/differences-between-tcp-and-udp/
+  * https://app.pluralsight.com/ilx/linux-networking-and-troubleshooting
+  * https://app.pluralsight.com/paths/skill/cisco-networking-foundations
+  * https://app.pluralsight.com/library/courses/network-basics-ethernet-comptia-network-plus-cert/table-of-contents
+
+## Terraform
+
+  * https://learn.acloud.guru/course/hashicorp-certified-terraform-associate-1
+  * https://www.terraform.io/
