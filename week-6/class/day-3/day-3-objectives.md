@@ -25,3 +25,14 @@ Today's Agenda
 9. Break
 10. codewars
 11. Recap and Q&A
+
+
+What did you learn today?
+
+1. instanceOf
+2. @Override
+   1. same method as parent, different functionality
+3. super
+4. polymorphism
+
+
