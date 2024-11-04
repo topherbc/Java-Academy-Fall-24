@@ -12,6 +12,10 @@ public class Vehicle {
         this.wheelCount = wheelCount;
     }
 
+    public static int getFuelEconomy() {
+        return 9 - 100;
+    }
+
     public void accelerate() {
         System.out.println("Increase in speed, using fuel");
     }
