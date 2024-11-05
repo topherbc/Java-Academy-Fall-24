@@ -40,3 +40,10 @@ Agenda Today
 10. Generics Intro
 11. Recap and Q&A
 
+
+What did you learn today?
+
+1. interfaces
+   1. defines methods to be implemented
+2. Comparable Interface - compareTo method
+3. more packages!
