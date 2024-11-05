@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Game {
     public static void main(String[] args) {
@@ -29,18 +30,21 @@ public class Game {
         unoCards.add(unoCard6);
         unoCards.add(unoCard7);
 
-        PlayersHand<UNO> unoCardHand = new PlayersHand<>(unoCards);
+        PlayersHand<UNO> unoCardHand = new PlayersHand(unoCards);
+        List<UNO> list = unoCardHand.getCards();
     }
 
     public static void blackjack() {
         PlayingCard card1 = new PlayingCard("2", "spade", "spade", "black");
         PlayingCard card2 = new PlayingCard("4", "hearts", "hearts", "red");
 
-        ArrayList<PlayingCard> blackjackHand = new ArrayList<>();
-        blackjackHand.add(card1);
-        blackjackHand.add(card2);
+        ArrayList<PlayingCard> hand = new ArrayList<>();
+        hand.add(card1);
+        hand.add(card2);
 
-        PlayersHand<PlayingCard> blackjackPlayersHand1 = new PlayersHand<>(blackjackHand);
 
+        PlayersHandUnknownType blackjackHand = new PlayersHandUnknownType(hand);
+
+        List<? extends Card> cards = blackjackHand.getCards();
     }
 }
