@@ -5,7 +5,7 @@ import java.util.List;
 
 public class FixedList<T> {
 
-    private List<T> items;
+    private ArrayList<T> items;
     private int maxSize;
 
     public FixedList(int maxSize) {
@@ -21,7 +21,7 @@ public class FixedList<T> {
         }
     }
 
-    public List<T> getItems() {
+    public ArrayList<T> getItems() {
         return this.items;
     }
 }

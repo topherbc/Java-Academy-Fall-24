@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Game {
@@ -10,8 +11,7 @@ public class Game {
         playUno();
     }
 
-    public static void playUno() {
-        UNO unoCard1 = new UNO("7", "green");
+    public static void playUno() {7", "green");
         UNO unoCard2 = new UNO("1", "blue");
         UNO unoCard3 = new UNO("2", "green");
         UNO unoCard4 = new UNO("3", "red");
@@ -19,6 +19,7 @@ public class Game {
         UNO unoCard6 = new UNO("5", "green");
         UNO unoCard7 = new UNO("6", "red");
 
+        UNO unoCard1 = new UNO("
         System.out.println(unoCard1.getValue());
 
         ArrayList<UNO> unoCards = new ArrayList<>();
@@ -29,6 +30,7 @@ public class Game {
         unoCards.add(unoCard5);
         unoCards.add(unoCard6);
         unoCards.add(unoCard7);
+
 
         PlayersHand<UNO> unoCardHand = new PlayersHand(unoCards);
         List<UNO> list = unoCardHand.getCards();
