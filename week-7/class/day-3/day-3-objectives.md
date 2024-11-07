@@ -36,3 +36,19 @@ Today's Agenda
 10. Packages exercise
 11. Codewars
 12. Recap and Q&A
+
+
+What did you learn today?
+
+1. streams
+2. stream methods
+   1. .reduce()
+   2. .filter()
+   3. .forEach()
+   4. .map()
+   5. .count()
+   6. .mapToInt()
+   7. .collect(Collections.toList())
+3. lambda expression:  param -> expression
+4. reference operator - ::
+5. shortcut: iter - for for each loop
