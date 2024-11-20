@@ -4,7 +4,8 @@ USE northwind;
 
 
 SELECT
-	ROUND(AVG(UnitPrice), 4)
+	ROUND(AVG(UnitPrice), 4) AS rounded,
+    TRUNCATE(AVG(UnitPrice), 4) AS truncated
 FROM
 	Products;
 			
