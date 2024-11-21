@@ -63,3 +63,26 @@ Agenda Today
 7. break
 8. JOINS
 9. Recap and Q&A
+
+
+What did you learn today?
+
+1. Functions
+   1. TRUNCATE()
+   2. CONCAT() - string manipulation
+   3. ROUND() - rounds
+   4. FLOOR() - rounds down
+   5. CEIL() - round up
+2. JOINs - combing table data
+   1. INNER JOINS - Matches tables on data
+      1. JOIN
+   2. OUTER JOINS - Matches table data and includes nulls
+      1. LEFT JOIN
+      2. RIGHT JOIN
+      3. FULL OUTER JOIN
+3. ON - how to connect table to another, uses the key relationship
+4. Primary Key - Unique identifier for a row of data on the primary table
+5. Foreign Key - Primary key that belongs to a different table
+6. subqueries / nested queries - query inside another query
+7. RANK()
+8. operator - IN - looks for values in list 
