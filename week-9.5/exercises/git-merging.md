@@ -13,7 +13,7 @@ Each member must share their screen at the time of their instructions.
 1. Create an empty repository in GitHub.
 2. Initialize the repository on your local computer
 3. `touch` a `MainClass.java` file
-4. Paste the following code into that file
+4. Open the file and Paste the following code into that file
    ```java
       public class MainClass {
          public static void main(String[] args) {
