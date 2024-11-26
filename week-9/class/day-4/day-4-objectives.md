@@ -42,3 +42,34 @@ Agenda Today
 9. Break
 10. Codewars or a visit to the zoo
 11. Recap and Q&A
+
+
+What did you learn today?
+
+1. INSERT INTO - VALUES
+2. AUTO_INCREMENT
+3. NOT NULL
+4. CREATE TABLE
+5. UPDATE
+   1. SET - what we're setting
+   2. WHERE - what we are updating
+6. DELETE
+7. Primary Key
+8. Foreign Key
+9.  CONSTRAINT
+10. SET SQL_SAFE_UPDATES = 0 
+11. CRUD
+12. varchar
+13. AS
+14. OUTER JOIN
+15. INNER JOIN / JOIN
+16. IS - used for null values
+17. Relationships
+    1.  One-to-one
+    2.  One-to-many
+    3.  many-to-many
+18. sorting ASC and DESC
+19. datadumps and seed database
+    
+20. Miranda hired Jeremy to kill that man
+
