@@ -5,7 +5,7 @@ import java.sql.*;
 public class PreparedStatementApp {
     public static void main(String[] args) {
 
-        String url = "jdbc:mysql://127.0.0.1:3306/northwind";
+        String url = "jdbc:mysql://127.0.0.1:3306/" + args[2];
         String user = args[0]; // Replace with your username
         String password = args[1];
 
