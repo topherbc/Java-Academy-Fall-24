@@ -43,3 +43,9 @@ Agenda Today
 12. Break
 13. Exercise or Codewars
 14. Recap and Q&A
+
+What did you learn today?
+
+1. try-with-resources
+2. finally
+3. DataSource
