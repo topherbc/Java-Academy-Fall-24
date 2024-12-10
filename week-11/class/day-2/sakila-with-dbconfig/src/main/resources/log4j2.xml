@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Appender (optional, can remove if you only want file logs) -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{ISO8601} %-5p [%t] %c{1} - %m%n"/>
+        </Console>
+
+        <!-- File Appender -->
+        <File name="FileLogger" fileName="logs/app.log" append="true">
+            <PatternLayout pattern="%d{ISO8601} %-5p [%t] %c{1} - %m%n"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root logger will log to both Console and File -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Root>
+
+        <!-- If you want custom levels for specific packages or classes -->
+        <!--<Logger name="com.example.myapp" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Logger>-->
+    </Loggers>
+</Configuration>

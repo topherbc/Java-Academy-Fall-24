@@ -17,11 +17,15 @@ public class FilmService {
         this.filmDao = filmDao;
     }
 
-    public List<Film> getAllFilms() {
-        return filmDao.getAll();
-    }
-
     public void addFilm(Film film) {
         filmDao.add(film);
+    }
+
+    public void deleteFilmById(int filmId) {
+        filmDao.deleteById(filmId);
+    }
+
+    public List<Film> getAllFilms() {
+        return filmDao.getAll();
     }
 }

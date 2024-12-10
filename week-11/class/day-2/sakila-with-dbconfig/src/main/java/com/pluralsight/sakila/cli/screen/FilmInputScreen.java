@@ -14,10 +14,7 @@ public class FilmInputScreen {
     }
 
     public Film promptForFilm() {
-        System.out.println("\n------------\n--Please add film info--");
-        System.out.print("FilmID: ");
-        int filmID = scanner.nextInt();
-        scanner.nextLine(); // consume leftover newline
+        System.out.println("\n------------\n--Please enter film info to add--");
 
         System.out.print("Title: ");
         String title = scanner.nextLine();
@@ -28,6 +25,16 @@ public class FilmInputScreen {
         System.out.print("Release Year: ");
         String releaseYear = scanner.nextLine();
 
-        return new Film(filmID, title, description, releaseYear);
+        return new Film(0, title, description, releaseYear);
+    }
+
+    public int promptForFilmId() {
+        System.out.println("\n------------\n--Please enter film info to delete--");
+
+        System.out.print("Film ID: ");
+        int filmId = scanner.nextInt();
+        scanner.nextLine(); //Consume CRLF
+
+        return filmId;
     }
 }
