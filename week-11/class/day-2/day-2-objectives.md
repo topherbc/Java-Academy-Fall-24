@@ -29,4 +29,22 @@ Agenda Today
 11. Self learn custom properties
 12. exercise
 13. Recap and Q&A
-14. 
+    
+
+What did you learn today?
+
+1. Spring beans - Special tools, that could be used as needed
+   1. beans
+      1. @Component
+      2. @Qualifier
+      3. @Bean
+      4. @Configuration
+   2. injecting beans
+      1. @Autowired - where you inject the bean
+      2. @Value
+2. application.properties - key/value pairs for config info
+3. ApplicationContext - IoC container
+4. CommandLineRunner
+   1. .run implementation
+5. Singleton pattern
+6. mock data is fake data

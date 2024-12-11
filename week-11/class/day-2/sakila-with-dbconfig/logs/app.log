@@ -1,0 +1,287 @@
+2024-12-10T16:17:05,395 INFO  [main] SakilaApplication - Starting SakilaApplication using Java 20.0.2 with PID 52329 (/Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig/target/classes started by christopher-carter in /Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig)
+2024-12-10T16:17:05,404 INFO  [main] SakilaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-10T16:17:05,974 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-10T16:17:05,981 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:17:05,982 INFO  [main] StandardService - Starting service [Tomcat]
+2024-12-10T16:17:05,982 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10T16:17:06,004 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2024-12-10T16:17:06,004 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 550 ms
+2024-12-10T16:17:06,230 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:17:06,237 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-10T16:17:06,242 INFO  [main] SakilaApplication - Started SakilaApplication in 1.051 seconds (process running for 1.767)
+2024-12-10T16:17:08,825 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10T16:17:08,825 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-10T16:17:08,826 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+2024-12-10T16:17:21,887 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10T16:17:21,890 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2024-12-10T16:17:24,538 INFO  [main] SakilaApplication - Starting SakilaApplication using Java 20.0.2 with PID 52425 (/Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig/target/classes started by christopher-carter in /Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig)
+2024-12-10T16:17:24,542 INFO  [main] SakilaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-10T16:17:25,003 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-10T16:17:25,009 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:17:25,010 INFO  [main] StandardService - Starting service [Tomcat]
+2024-12-10T16:17:25,011 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10T16:17:25,032 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2024-12-10T16:17:25,032 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 463 ms
+2024-12-10T16:17:25,215 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:17:25,221 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-10T16:17:25,226 INFO  [main] SakilaApplication - Started SakilaApplication in 0.852 seconds (process running for 1.335)
+2024-12-10T16:19:35,432 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10T16:19:35,432 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-10T16:19:35,433 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+2024-12-10T16:20:53,539 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10T16:20:53,541 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2024-12-10T16:20:56,265 INFO  [main] SakilaApplication - Starting SakilaApplication using Java 20.0.2 with PID 53209 (/Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig/target/classes started by christopher-carter in /Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig)
+2024-12-10T16:20:56,270 INFO  [main] SakilaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-10T16:20:56,825 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-10T16:20:56,832 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:20:56,832 INFO  [main] StandardService - Starting service [Tomcat]
+2024-12-10T16:20:56,833 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10T16:20:56,856 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2024-12-10T16:20:56,856 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 565 ms
+2024-12-10T16:20:57,034 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:20:57,041 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-10T16:20:57,046 INFO  [main] SakilaApplication - Started SakilaApplication in 0.943 seconds (process running for 1.447)
+2024-12-10T16:20:59,123 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10T16:20:59,123 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-10T16:20:59,124 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+2024-12-10T16:20:59,133 ERROR [http-nio-8080-exec-1] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Ambiguous handler methods mapped for '/': {public java.lang.String com.pluralsight.sakila.controller.FilmController.index(java.lang.String), public java.lang.String com.pluralsight.sakila.controller.FilmController.index()}] with root cause
+java.lang.IllegalStateException: Ambiguous handler methods mapped for '/': {public java.lang.String com.pluralsight.sakila.controller.FilmController.index(java.lang.String), public java.lang.String com.pluralsight.sakila.controller.FilmController.index()}
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:431) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:127) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:509) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1283) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1623) [?:?]
+2024-12-10T16:21:10,049 ERROR [http-nio-8080-exec-2] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Ambiguous handler methods mapped for '/': {public java.lang.String com.pluralsight.sakila.controller.FilmController.index(java.lang.String), public java.lang.String com.pluralsight.sakila.controller.FilmController.index()}] with root cause
+java.lang.IllegalStateException: Ambiguous handler methods mapped for '/': {public java.lang.String com.pluralsight.sakila.controller.FilmController.index(java.lang.String), public java.lang.String com.pluralsight.sakila.controller.FilmController.index()}
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:431) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:127) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:509) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1283) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1623) [?:?]
+2024-12-10T16:21:35,804 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10T16:21:35,807 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2024-12-10T16:21:39,198 INFO  [main] SakilaApplication - Starting SakilaApplication using Java 20.0.2 with PID 53362 (/Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig/target/classes started by christopher-carter in /Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig)
+2024-12-10T16:21:39,202 INFO  [main] SakilaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-10T16:21:39,736 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-10T16:21:39,746 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:21:39,747 INFO  [main] StandardService - Starting service [Tomcat]
+2024-12-10T16:21:39,748 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10T16:21:39,771 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2024-12-10T16:21:39,772 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 536 ms
+2024-12-10T16:21:39,866 WARN  [main] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'filmController' method 
+com.pluralsight.sakila.controller.FilmController#index()
+to {GET [/ || ]}: There is already 'filmController' bean method
+com.pluralsight.sakila.controller.FilmController#index(String) mapped.
+2024-12-10T16:21:39,867 INFO  [main] StandardService - Stopping service [Tomcat]
+2024-12-10T16:21:39,873 INFO  [main] ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-10T16:21:39,881 ERROR [main] SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'filmController' method 
+com.pluralsight.sakila.controller.FilmController#index()
+to {GET [/ || ]}: There is already 'filmController' bean method
+com.pluralsight.sakila.controller.FilmController#index(String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.0.jar:6.2.0]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.0.jar:6.2.0]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.4.0.jar:3.4.0]
+	at com.pluralsight.sakila.SakilaApplication.main(SakilaApplication.java:10) [classes/:?]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+com.pluralsight.sakila.controller.FilmController#index()
+to {GET [/ || ]}: There is already 'filmController' bean method
+com.pluralsight.sakila.controller.FilmController#index(String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:675) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:637) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:509) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1849) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-6.2.0.jar:6.2.0]
+	... 18 more
+2024-12-10T16:21:47,741 INFO  [main] SakilaApplication - Starting SakilaApplication using Java 20.0.2 with PID 53401 (/Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig/target/classes started by christopher-carter in /Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig)
+2024-12-10T16:21:47,746 INFO  [main] SakilaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-10T16:21:48,193 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-10T16:21:48,200 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:21:48,201 INFO  [main] StandardService - Starting service [Tomcat]
+2024-12-10T16:21:48,201 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10T16:21:48,221 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2024-12-10T16:21:48,222 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 454 ms
+2024-12-10T16:21:48,419 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:21:48,426 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-10T16:21:48,431 INFO  [main] SakilaApplication - Started SakilaApplication in 0.856 seconds (process running for 1.346)
+2024-12-10T16:21:50,714 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10T16:21:50,714 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-10T16:21:50,715 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+2024-12-10T16:29:22,829 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10T16:29:22,833 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2024-12-10T16:29:24,834 INFO  [main] SakilaApplication - Starting SakilaApplication using Java 20.0.2 with PID 54870 (/Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig/target/classes started by christopher-carter in /Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig)
+2024-12-10T16:29:24,840 INFO  [main] SakilaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-10T16:29:25,375 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-10T16:29:25,382 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:29:25,383 INFO  [main] StandardService - Starting service [Tomcat]
+2024-12-10T16:29:25,383 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10T16:29:25,404 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2024-12-10T16:29:25,404 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 539 ms
+2024-12-10T16:29:25,588 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:29:25,594 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-10T16:29:25,599 INFO  [main] SakilaApplication - Started SakilaApplication in 0.919 seconds (process running for 1.354)
+2024-12-10T16:30:33,551 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10T16:30:33,551 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-10T16:30:33,552 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+2024-12-10T16:30:33,576 WARN  [http-nio-8080-exec-1] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'name': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "anything"]
+2024-12-10T16:30:38,510 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10T16:30:38,513 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2024-12-10T16:30:39,931 INFO  [main] SakilaApplication - Starting SakilaApplication using Java 20.0.2 with PID 55125 (/Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig/target/classes started by christopher-carter in /Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig)
+2024-12-10T16:30:39,935 INFO  [main] SakilaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-10T16:30:40,387 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-10T16:30:40,394 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:30:40,394 INFO  [main] StandardService - Starting service [Tomcat]
+2024-12-10T16:30:40,394 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10T16:30:40,415 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2024-12-10T16:30:40,415 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 446 ms
+2024-12-10T16:30:40,592 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:30:40,597 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-10T16:30:40,602 INFO  [main] SakilaApplication - Started SakilaApplication in 0.83 seconds (process running for 1.321)
+2024-12-10T16:30:43,545 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10T16:30:43,545 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-10T16:30:43,545 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+2024-12-10T16:30:43,567 WARN  [http-nio-8080-exec-1] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'name': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "anything"]
+2024-12-10T16:30:49,974 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10T16:30:49,977 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2024-12-10T16:30:51,879 INFO  [main] SakilaApplication - Starting SakilaApplication using Java 20.0.2 with PID 55167 (/Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig/target/classes started by christopher-carter in /Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig)
+2024-12-10T16:30:51,885 INFO  [main] SakilaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-10T16:30:52,347 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-10T16:30:52,354 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:30:52,355 INFO  [main] StandardService - Starting service [Tomcat]
+2024-12-10T16:30:52,355 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10T16:30:52,387 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2024-12-10T16:30:52,387 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 451 ms
+2024-12-10T16:30:52,608 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:30:52,616 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-10T16:30:52,623 INFO  [main] SakilaApplication - Started SakilaApplication in 0.94 seconds (process running for 1.384)
+2024-12-10T16:30:54,972 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10T16:30:54,972 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-10T16:30:54,973 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+2024-12-10T16:30:54,994 WARN  [http-nio-8080-exec-1] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'name': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "anything"]
+2024-12-10T16:30:57,301 WARN  [http-nio-8080-exec-2] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'name': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "anything"]
+2024-12-10T16:31:12,643 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10T16:31:12,645 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
+2024-12-10T16:31:51,792 INFO  [main] SakilaApplication - Starting SakilaApplication using Java 20.0.2 with PID 55364 (/Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig/target/classes started by christopher-carter in /Users/christopher-carter/Documents/Courseware-Docs/My-Classes/Academy-Java-YearUp/2024-Q4-Fall/week-11/class/day-2/sakila-with-dbconfig)
+2024-12-10T16:31:51,796 INFO  [main] SakilaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-10T16:31:52,391 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-10T16:31:52,399 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:31:52,400 INFO  [main] StandardService - Starting service [Tomcat]
+2024-12-10T16:31:52,400 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10T16:31:52,421 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2024-12-10T16:31:52,421 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 587 ms
+2024-12-10T16:31:52,602 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-10T16:31:52,608 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-10T16:31:52,613 INFO  [main] SakilaApplication - Started SakilaApplication in 0.983 seconds (process running for 1.473)
+2024-12-10T16:31:54,805 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10T16:31:54,805 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-10T16:31:54,805 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+2024-12-10T16:32:05,112 INFO  [SpringApplicationShutdownHook] GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10T16:32:05,115 INFO  [tomcat-shutdown] GracefulShutdown - Graceful shutdown complete
