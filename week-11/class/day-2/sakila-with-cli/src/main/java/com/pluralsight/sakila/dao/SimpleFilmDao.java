@@ -17,7 +17,6 @@ public class SimpleFilmDao implements FilmDao {
         this.films.add(new Film(3, "Super Bad", "McLovin does bad things", "2007"));
     }
 
-
     @Override
     public void add(Film film) {
         this.films.add(film);

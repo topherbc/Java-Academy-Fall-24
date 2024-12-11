@@ -16,6 +16,6 @@ public class SakilaCLI implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        menuHandler.showMainMenu();
+//        menuHandler.showMainMenu();
     }
 }
