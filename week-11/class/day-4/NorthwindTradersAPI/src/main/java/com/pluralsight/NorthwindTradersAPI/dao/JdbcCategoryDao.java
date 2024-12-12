@@ -1,7 +1,7 @@
 package com.pluralsight.NorthwindTradersAPI.dao;
 
 
-import com.pluralsight.NorthwindTradersAPI.models.Product;
+import com.pluralsight.NorthwindTradersAPI.models.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -17,46 +17,46 @@ import java.util.List;
 public class JdbcCategoryDao implements CategoryDao {
 
     private DataSource dataSource;
-    private List<Product> products;
+    private List<Category> categories;
 
     @Autowired
-    public JdbcProductDao(DataSource dataSource){
+    public JdbcCategoryDao(DataSource dataSource){
         this.dataSource = dataSource;
-        this.products = new ArrayList<>();
+        this.categories = new ArrayList<>();
     }
 
     @Override
-    public List<Product> getAll() {
-        this.products.clear();
-        String sql = "SELECT productId, categoryId, productName, unitPrice FROM products;";
+    public List<Category> getAll() {
+        this.categories.clear();
+        String sql = "SELECT categoryId, categoryName FROM categories;";
         try(Connection connection = dataSource.getConnection()){
             PreparedStatement statement = connection.prepareStatement(sql);
             ResultSet rows = statement.executeQuery();
             while(rows.next()){
-                this.products.add(new Product(rows.getInt(1), rows.getInt(2), rows.getString(3),rows.getDouble(4)));
+                this.categories.add(new Category(rows.getInt(1), rows.getString(2)));
             }
         }
         catch (SQLException e){
             e.printStackTrace();
         }
-        return this.products;
+        return this.categories;
     }
 
     @Override
-    public Product getById(int id) {
-        Product product = null;
-        String sql = "SELECT productId, categoryId, productName, unitPrice FROM products WHERE productId = ?;";
+    public Category getById(int id) {
+        Category category = null;
+        String sql = "SELECT categoryId, categoryName  FROM categories WHERE categoryId = ?;";
         try(Connection connection = dataSource.getConnection()){
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setInt(1, id);
             ResultSet rows = statement.executeQuery();
             while(rows.next()){
-                product = new Product(rows.getInt(1), rows.getInt(2), rows.getString(3),rows.getDouble(4));
+                category = new Category(rows.getInt(1), rows.getString(2));
             }
         }
         catch (SQLException e){
             e.printStackTrace();
         }
-        return product;
+        return category;
     }
 }

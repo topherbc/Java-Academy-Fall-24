@@ -1,7 +1,9 @@
 package com.pluralsight.NorthwindTradersAPI.controllers;
 
+import com.pluralsight.NorthwindTradersAPI.dao.CategoryDao;
 import com.pluralsight.NorthwindTradersAPI.models.Category;
 import com.pluralsight.NorthwindTradersAPI.models.Product;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -13,23 +15,21 @@ import java.util.List;
 @RestController
 public class CategoryController {
 
-    private final List<Category> categories;
+    private CategoryDao categoryDao;
 
-    public CategoryController() {
-        this.categories = new ArrayList<>();
-        this.categories.add(new Category(1, "Stuff"));
-        this.categories.add(new Category(2, "Things"));
-        this.categories.add(new Category(3, "Objects"));
+    @Autowired
+    public CategoryController(CategoryDao categoryDao) {
+       this.categoryDao = categoryDao;
     }
 
     @RequestMapping(path="/categories", method = RequestMethod.GET)
     public List<Category> getAllCategories() {
-        return this.categories;
+        return this.categoryDao.getAll();
     }
 
     @RequestMapping(path="/categories/{id}", method = RequestMethod.GET)
     public Category getACategory(@PathVariable int id) {
-        return this.categories.get(id-1);
+        return this.categoryDao.getById(id);
     }
 
 }
