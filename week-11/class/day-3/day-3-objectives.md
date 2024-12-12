@@ -40,3 +40,30 @@ Today's Agenda
 9. Break
 10. You build API
 11. Recap and Q&A
+
+What did  you learn today?
+
+1. postman - tests all request methods, super browser
+   1. Raw is real response
+   2. Preview interprets 
+   3. pretty - 
+2. MVC - model view control design pattern
+3. Controller classes
+4. URL
+   1. path
+   2. Request parameters - set after ? param=value
+      1. EX. youtube.com/watch?v=something - v=something is the query param
+5. REST api - representational state transfer application programming interface
+6. HTTP Method
+   1. GET: retrieving / read R
+   2. POST: creates/inserts / create C
+   3. PUT: updates / update U
+   4. DELETE: deletes / delete D
+7. JSON - Javascript Object Notation - format
+   1. Similar to List / Hashmap
+   2. [{ "key": "value" }]
+8. Path Variables 
+   1. localhost:8080/categories/2 - 2 is a id, dynamic variable we can change
+9.  @RequestMapping
+10. @RequestBody - expects raw json
+11. UDP and TCP
