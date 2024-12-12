@@ -60,21 +60,27 @@ public class JdbcProductDao implements ProductDao {
     }
 
     @Override
-    public boolean insert(Product product) {
+    public Product insert(Product product) {
+        Product createdProduct = null;
         String sql = "INSERT INTO products (categoryId, productName, unitPrice) VALUES (?, ?, ?)";
         try(Connection connection = dataSource.getConnection()){
-            PreparedStatement statement = connection.prepareStatement(sql);
+            PreparedStatement statement = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
 
             statement.setInt(1, product.getCategoryId());
             statement.setString(2, product.getProductName());
             statement.setDouble(3, product.getUnitPrice());
 
             statement.executeUpdate();
+
+            // Retrieve the generated key
+            ResultSet generatedKeys = statement.getGeneratedKeys();
+            if(generatedKeys.next()) {
+                createdProduct = getById(generatedKeys.getInt(1));
+            }
         }
         catch (SQLException e) {
            e.printStackTrace();
-           return false;
         }
-        return true;
+        return createdProduct;
     }
 }

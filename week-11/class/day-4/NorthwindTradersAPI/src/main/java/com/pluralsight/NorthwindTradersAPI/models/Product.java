@@ -5,14 +5,11 @@ public class Product {
     private String productName;
     private double unitPrice;
 
-    public Product(int productId, int categoryId, String productName, double unitPrice) {
-        this.productId = productId;
-        this.categoryId = categoryId;
-        this.productName = productName;
-        this.unitPrice = unitPrice;
+    public Product() {
     }
 
-    public Product(int categoryId, String productName, double unitPrice) {
+    public Product(int productId, int categoryId, String productName, double unitPrice) {
+        this.productId = productId;
         this.categoryId = categoryId;
         this.productName = productName;
         this.unitPrice = unitPrice;

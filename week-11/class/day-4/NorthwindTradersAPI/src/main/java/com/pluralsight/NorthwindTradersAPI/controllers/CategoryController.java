@@ -30,7 +30,7 @@ public class CategoryController {
     }
 
     @RequestMapping(path="/categories", method = RequestMethod.POST)
-    public boolean addAProduct(@RequestBody Category category) {
+    public Category addAProduct(@RequestBody Category category) {
         return this.categoryDao.insert(category);
     }
 }

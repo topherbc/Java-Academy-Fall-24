@@ -29,7 +29,7 @@ public class ProductController {
     }
 
     @RequestMapping(path="/products", method = RequestMethod.POST)
-    public boolean addAProduct(@RequestBody Product product) {
+    public Product addAProduct(@RequestBody Product product) {
         return this.productDao.insert(product);
     }
 }
