@@ -32,4 +32,9 @@ public class ProductController {
     public Product addAProduct(@RequestBody Product product) {
         return this.productDao.insert(product);
     }
+
+    @RequestMapping(path="/products/{id}", method=RequestMethod.PUT)
+    public boolean updateAProduct(@PathVariable int id, @RequestBody Product product) {
+        return this.productDao.update(id, product);
+    }
 }

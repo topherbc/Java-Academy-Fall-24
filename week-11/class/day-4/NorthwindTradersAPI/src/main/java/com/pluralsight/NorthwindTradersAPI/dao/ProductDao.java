@@ -8,4 +8,5 @@ public interface ProductDao {
     List<Product> getAll();
     Product getById(int id);
     Product insert(Product product);
+    boolean update(int id, Product product);
 }

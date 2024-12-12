@@ -83,4 +83,67 @@ public class JdbcProductDao implements ProductDao {
         }
         return createdProduct;
     }
+
+    @Override
+    public boolean update(int id, Product product) {
+        int productNamePos = 0;
+        int categoryIdPos = 0;
+        int unitPricePos = 0;
+        int idPos = 0;
+        String updateParamStatement = "";
+        if(product.getProductName() != null) {
+            productNamePos+=1;
+            idPos++;
+            updateParamStatement+=" productName=? ";
+        }
+
+        if(product.getCategoryId() != 0) {
+            categoryIdPos+=productNamePos+1;
+            idPos++;
+            String comma = "";
+            if (updateParamStatement.length() > 0) {
+                comma=",";
+            }
+            updateParamStatement+=comma+" categoryId=? ";
+        }
+
+        if(product.getUnitPrice() != 0.0) {
+            unitPricePos+=categoryIdPos+productNamePos+1;
+            idPos++;
+            String comma = "";
+            if (updateParamStatement.length() > 0) {
+                comma=",";
+            }
+            updateParamStatement+=comma+" unitPrice=? ";
+        }
+
+        String sql = "UPDATE products SET " + updateParamStatement + " WHERE ProductID=?";
+        try(Connection connection = dataSource.getConnection()){
+            PreparedStatement statement = connection.prepareStatement(sql);
+
+            // if we don't have 1 or more property populated, call getById to populate
+            System.out.println(product);
+
+            if(product.getProductName() != null) {
+                statement.setString(productNamePos, product.getProductName());
+            }
+            
+            if(product.getCategoryId() != 0) {
+                statement.setInt(categoryIdPos, product.getCategoryId());
+            }
+
+            if(product.getUnitPrice() != 0.0) {
+                statement.setDouble(unitPricePos, product.getUnitPrice());
+            }
+
+            statement.setInt(idPos+1, id);
+
+            statement.executeUpdate();
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+        return true;
+    }
 }
