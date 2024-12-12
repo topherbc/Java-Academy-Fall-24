@@ -12,6 +12,12 @@ public class Product {
         this.unitPrice = unitPrice;
     }
 
+    public Product(int categoryId, String productName, double unitPrice) {
+        this.categoryId = categoryId;
+        this.productName = productName;
+        this.unitPrice = unitPrice;
+    }
+
     public int getProductId() {
         return productId;
     }

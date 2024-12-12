@@ -58,4 +58,23 @@ public class JdbcProductDao implements ProductDao {
         }
         return product;
     }
+
+    @Override
+    public boolean insert(Product product) {
+        String sql = "INSERT INTO products (categoryId, productName, unitPrice) VALUES (?, ?, ?)";
+        try(Connection connection = dataSource.getConnection()){
+            PreparedStatement statement = connection.prepareStatement(sql);
+
+            statement.setInt(1, product.getCategoryId());
+            statement.setString(2, product.getProductName());
+            statement.setDouble(3, product.getUnitPrice());
+
+            statement.executeUpdate();
+        }
+        catch (SQLException e) {
+           e.printStackTrace();
+           return false;
+        }
+        return true;
+    }
 }
